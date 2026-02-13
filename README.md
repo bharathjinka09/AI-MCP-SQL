@@ -4,6 +4,8 @@
 
 Download Gemini Code Assist VS Code extension
 
+Make sure that the gemini code extension is in agent mode
+
 Add this to .gemini/settings.json in C:/Users/Lenovo/.gemini:
 
 ```
@@ -24,7 +26,7 @@ Add this to .gemini/settings.json in C:/Users/Lenovo/.gemini:
 
 Test the full "CRUD" (Create, Read, Update, Delete) cycle:
 
-Store: "Remember that my project lead is Alex." (Uses store_memory)
+Store: "Add key as project lead and content is Alex to db." (Uses store_memory)
 
 Retrieve: "Who is my project lead?" (Uses retrieve_memory)
 
