@@ -43,6 +43,16 @@ def retrieve_memory(key: str) -> str:
 
 
 @mcp.tool()
+def list_memories() -> str:
+    """Lists all stored memories with their keys."""
+    with sqlite3.connect(DB_PATH) as conn:
+        rows = conn.execute("SELECT key FROM memories").fetchall()
+        if rows:
+            return "Stored Memories:\n" + "\n".join(f"- {row[0]}" for row in rows)
+        else:
+            return "No memories stored yet."
+
+@mcp.tool()
 def update_memory(key: str, new_content: str) -> str:
     """Updates an existing memory with new information."""
     with sqlite3.connect(DB_PATH) as conn:
