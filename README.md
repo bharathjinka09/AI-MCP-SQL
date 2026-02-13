@@ -8,6 +8,8 @@ Make sure that the gemini code extension is in agent mode
 
 IMPORTANT - Reload VS Code after updating any settings to refresh
 
+Use ``` /mcp ``` command to list all tools in chat 
+
 Add this to .gemini/settings.json in C:/Users/Lenovo/.gemini:
 
 ```
@@ -31,6 +33,8 @@ Test the full "CRUD" (Create, Read, Update, Delete) cycle:
 Store: "Add key as project lead and content is Alex to db." (Uses store_memory)
 
 Retrieve: "Who is my project lead?" (Uses retrieve_memory)
+
+Fetch all: "List all memories" (Uses list_memories)
 
 Update: "Actually, Alex left; update my project lead memory to say the lead is now Sarah." (Uses update_memory)
 
