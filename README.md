@@ -6,6 +6,8 @@ Download Gemini Code Assist VS Code extension
 
 Make sure that the gemini code extension is in agent mode
 
+IMPORTANT - Reload VS Code after updating any settings to refresh
+
 Add this to .gemini/settings.json in C:/Users/Lenovo/.gemini:
 
 ```
