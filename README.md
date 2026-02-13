@@ -12,6 +12,7 @@ Delete: "I'm done with the project lead info, you can delete that memory now." (
 
 Add this to .gemini/settings.json in C:/Users/Lenovo/.gemini:
 
+```
 {
   "mcpServers": {
     "my-persistent-memory": {
@@ -23,3 +24,4 @@ Add this to .gemini/settings.json in C:/Users/Lenovo/.gemini:
     }
   }
 }
+```
