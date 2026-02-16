@@ -8,7 +8,7 @@ Make sure that the gemini code extension is in agent mode
 
 IMPORTANT - Reload VS Code after updating any settings to refresh
 
-Run ``` /init ``` command to initialize it
+Run ``` /init ``` command to initialize the agent
 
 Use ``` /mcp ``` command to list all tools in chat 
 
@@ -41,5 +41,6 @@ Fetch all: "List all memories" (Uses list_memories)
 Update: "Actually, Alex left; update my project lead memory to say the lead is now Sarah." (Uses update_memory)
 
 Delete: "I'm done with the project lead info, you can delete that memory now." (Uses delete_memory)
+
 
 
